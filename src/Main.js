@@ -614,7 +614,7 @@ function Main() {
     ], []);
 
 
-
+// eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         if (location.state && location.state.mobile) {
             // Find the complete mobile data from data array by id

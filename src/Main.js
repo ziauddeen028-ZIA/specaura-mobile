@@ -624,7 +624,7 @@ function Main() {
             // Set default mobile if none selected
             setSelectedMobile(data[0]);
         }
-    }, [location.state],data);
+    }, [location.state,data]);
 
 
 

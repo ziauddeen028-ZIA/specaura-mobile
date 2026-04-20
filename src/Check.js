@@ -47,13 +47,13 @@ function Check() {
 
                     <div className="product-price">
                         <div className="amazon">
-                            <img src="/images/Amazon.jpg"/>
+                            <img src="/images/Amazon.jpg" alt=""/>
                         </div>
                         <p>{selectedMobile?.amazon ? <a href={selectedMobile.amazon} target="_blank" rel="noopener noreferrer">Visit Amazon</a> : "N/A"}</p>
                     </div>
                     <div className="product-price">
                         <div className="flipkart">
-                            <img src="/images/flipkart.jpg"/>
+                            <img src="/images/flipkart.jpg" alt=""/>
                         </div>
                         <p>{selectedMobile?.flipkart ? <a href={selectedMobile.flipkart} target="_blank" rel="noopener noreferrer">Visit Flipkart</a> : "N/A"}</p>
                     </div>

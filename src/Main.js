@@ -625,7 +625,7 @@ function Main(){
             // Set default mobile if none selected
             setSelectedMobile(data[0]);
         }
-    }, [location.state]);
+    }, [location.state,data]);
 
     return (
         <div className="full">

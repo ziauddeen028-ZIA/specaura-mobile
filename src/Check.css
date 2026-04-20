@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+.full {
+    background-color: #e8f3f1;
+    min-height: 100vh;
+    padding-top: 55px;
+}
+
+.container {
+    height: 350px;
+    width: 65%;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 7px;
+    border: 1px solid black;
+
+}
+
+.image-container {
+    flex: 1;
+    border-right: 1px solid black;
+    height: 350px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.image-container img {
+    height: 300px;
+    width: 350px;
+}
+
+.download-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+    background-color: white;
+    border: none;
+
+
+    padding: 8px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: blue;
+    height: fit-content;
+    width: fit-content;
+    font-weight: bolder;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.download-btn:hover {
+    background-color: #d1ebe6;
+}
+
+.detail-container {
+    flex: 1;
+    font-weight: 800;
+    color: black;
+}
+
+.product-price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+
+}
+
+.amazon img {
+    height: 75px;
+    width: 100px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+.flipkart img {
+    height: 75px;
+    width: 100px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+
+
+.product-price .croma {
+    height: fit-content;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product-price .reliance {
+    height: fit-content;
+    width: 100px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+}

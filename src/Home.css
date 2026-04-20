@@ -1,0 +1,120 @@
+.container {
+    background-color: red;
+}
+
+
+
+button {
+    background-color: #3c9d00;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #98b643;
+}
+
+
+form {
+    background-color: #e8f3f1;
+    padding-top: 20px;
+    height: 100vh;
+}
+
+.input-container {
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 20px auto 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.categories-btns {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.trend {
+    padding-left: 10px;
+    color: #000000;
+}
+
+.slide {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    background-color: #ffffff;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.slide:hover {
+    transform: translateY(-10px);
+
+}
+
+.slide1 {
+    margin-top: 10%;
+    justify-items: center;
+}
+
+.slide1 img {
+    height: 200px;
+    width: 200px;
+}
+
+.slide3 {
+    text-align: center;
+    color: #545479;
+    padding-bottom: 20px;
+}
+
+.slide4 {
+    font-size: x-large;
+    font-weight: bolder;
+
+}
+
+.slide5 {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+
+.slick-slide>div {
+    margin: 10px;
+}
+
+.no-data {
+    background-color: white;
+    color: red;
+    height: 100px;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   /* ✅ add */
+    text-align: center;       /* ✅ add */
+
+    font-size: 30px;
+    padding-top: 20px;
+}
